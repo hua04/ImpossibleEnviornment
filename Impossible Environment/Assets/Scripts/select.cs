@@ -22,7 +22,7 @@ public class select : MonoBehaviour
                 RaycastHit hit = CastRay();
                 if (hit.collider != null)
                 {
-                    if (hit.collider.CompareTag("drag"))
+                    if (hit.collider.CompareTag("not moving"))
                     {
                         return;
                     }
@@ -31,7 +31,13 @@ public class select : MonoBehaviour
                 }
             }
             else
-            {
+            {Vector3 position=new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
+                Vector3 worldPosition = Camera.main.ScreenToWorldPoint(position);
+                selectedObject.transform.position = new Vector3(worldPosition.x,.25f,worldPosition.z);
+
+                selectedObject = null;
+                Cursor.visible = true;
+
 
             }
         }
@@ -39,7 +45,7 @@ public class select : MonoBehaviour
         {
             Vector3 position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
             Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
-            selectedObject.transform.position = new Vector3(worldPosition.x, .25f, worldPosition.z); 
+            selectedObject.transform.position = new Vector3(worldPosition.x, 2f, worldPosition.z); 
         }
     }
 
