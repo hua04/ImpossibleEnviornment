@@ -13,4 +13,12 @@ public class cursor : MonoBehaviour
         pos.z = offset;
         transform.position = Cam.ScreenToWorldPoint(pos);
     }
+
+    private void OnMouseDown()
+    {
+
+        pos = Input.mousePosition;
+        pos.z = offset;
+        transform.position = Cam.ScreenToWorldPoint(pos);
+    }
 }
