@@ -1627,7 +1627,7 @@ GameObject:
   - component: {fileID: 841724392}
   m_Layer: 0
   m_Name: cube
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2253,7 +2253,7 @@ GameObject:
   - component: {fileID: 1387437470}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: drag
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
