@@ -1,3 +1,4 @@
+using Hertzole.GoldPlayer;
 using UnityEngine;
 
 public class Transition23D : MonoBehaviour
@@ -20,6 +21,7 @@ public class Transition23D : MonoBehaviour
             twoDCam.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            GameObject.Find("Gold Player Controller").GetComponent<GoldPlayerController>().enabled = false;
         }
     }
     public void OnTriggerExit(Collider player)
