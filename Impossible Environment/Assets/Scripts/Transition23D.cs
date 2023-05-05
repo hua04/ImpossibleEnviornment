@@ -9,9 +9,16 @@ public class Transition23D : MonoBehaviour
     public GameObject instructionsOut;
     public GameObject twoDCam;
 
-    public void OnTriggerStay(Collider player)
+
+    public void OnTriggerEnter(Collider player)
     {
         instructionsIn.SetActive(true);
+
+
+    }
+    public void OnTriggerStay(Collider player)
+    {
+        
 
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -28,8 +35,8 @@ public class Transition23D : MonoBehaviour
     {
         instructionsIn.SetActive(false);
     }
-    
-        public void Update()
+
+    public void Update()
     {
         if (twoDCam.activeSelf == true)
         {
