@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class shufflePosition : MonoBehaviour
 {
-    public select selectedObject;
+    private select selectedObject;
     private Vector3 correctPosition;
     private float Angle;
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class shufflePosition : MonoBehaviour
     {        float[] angle = { 0f, 90f, 180f };
         Angle = angle[Random.Range(0, 3)];
         correctPosition = transform.position;
-        transform.position=new Vector3(Random.Range(5,7),Random.Range(5,7));
+        transform.position=new Vector3(Random.Range(-671.17f, -685.37f), -0.1900024f, Random.Range(153.75f, 165.3f));
         transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y+Angle, transform.rotation.eulerAngles.z));
     }
 
