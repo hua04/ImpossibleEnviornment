@@ -32,8 +32,8 @@ public class select : MonoBehaviour
             }
             else
             {Vector3 position=new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
-                Vector3 worldPosition = Camera.main.ScreenToWorldPoint(position);
-                selectedObject.transform.position = new Vector3(worldPosition.x,.25f,worldPosition.z);
+                Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
+                selectedObject.transform.position = new Vector3(worldPosition.x, 1f,worldPosition.z);
 
                 selectedObject = null;
                 Cursor.visible = true;
