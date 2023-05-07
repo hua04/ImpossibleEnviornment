@@ -22,7 +22,7 @@ public class shufflePosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, correctPosition)<1f) {
+        if (Vector3.Distance(transform.position, correctPosition)<1.5f) {
             transform.position = correctPosition;
         }
     }
