@@ -47,6 +47,7 @@ public class Transition23D : MonoBehaviour
                 instructionsInteract.SetActive(false);
                 instructionsOut.SetActive(false);
                 twoDCam.SetActive(false);
+                GameObject.Find("Gold Player Controller").GetComponent<GoldPlayerController>().enabled = true;
             }
         }
 

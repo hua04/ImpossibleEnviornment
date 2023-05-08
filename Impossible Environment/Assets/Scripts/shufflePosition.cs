@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class shufflePosition : MonoBehaviour
 {
+    public GameObject appearobject;
     private select selectedObject;
     private Vector3 correctPosition;
     private float Angle;
@@ -17,6 +18,7 @@ public class shufflePosition : MonoBehaviour
         correctPosition = transform.position;
         transform.position=new Vector3(Random.Range(-671.17f, -685.37f), -0.1900024f, Random.Range(153.75f, 165.3f));
         transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y+Angle, transform.rotation.eulerAngles.z));
+        appearobject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class shufflePosition : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, correctPosition)<1.5f) {
             transform.position = correctPosition;
+            appearobject.SetActive(true);
         }
     }
 }
