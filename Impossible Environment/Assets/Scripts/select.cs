@@ -33,7 +33,7 @@ public class select : MonoBehaviour
             else
             {Vector3 position=new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
                 Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
-                selectedObject.transform.position = new Vector3(worldPosition.x, 1f,worldPosition.z);
+                selectedObject.transform.position = new Vector3(worldPosition.x, 3470f,worldPosition.z);
 
                 selectedObject = null;
                 Cursor.visible = true;
@@ -45,13 +45,13 @@ public class select : MonoBehaviour
         {
             Vector3 position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
             Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
-            selectedObject.transform.position = new Vector3(worldPosition.x, 2f, worldPosition.z);
+            selectedObject.transform.position = new Vector3(worldPosition.x, 3500f, worldPosition.z);
 
             if (Input.GetMouseButtonDown(1))
             {
                 selectedObject.transform.rotation = Quaternion.Euler(new Vector3
                     (selectedObject.transform.rotation.eulerAngles.x,
-                    selectedObject.transform.rotation.eulerAngles.y + 45f,
+                    selectedObject.transform.rotation.eulerAngles.y + 90f,
                     selectedObject.transform.rotation.eulerAngles.z
                     ));
             }
