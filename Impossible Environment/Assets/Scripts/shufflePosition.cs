@@ -8,6 +8,7 @@ using UnityEngine;
 public class shufflePosition : MonoBehaviour
 {
     public GameObject appearobject;
+    public GameObject appearobject2;
     public float Xmaxrange;
     public float Xminrange;
     public float Ynumber;
@@ -32,6 +33,7 @@ public class shufflePosition : MonoBehaviour
         if (Vector3.Distance(transform.position, correctPosition)<4f) {
             transform.position = correctPosition;
             appearobject.SetActive(true);
+            appearobject2.SetActive(true);
         }
     }
 }

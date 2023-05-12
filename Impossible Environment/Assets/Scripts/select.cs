@@ -6,6 +6,7 @@ public class select : MonoBehaviour
 {
     public Camera Cam;
     private GameObject selectedObject;
+    public float Ynumber;
     private Vector3 screenPoint;
     private Vector3 offset;
 
@@ -33,7 +34,7 @@ public class select : MonoBehaviour
             else
             {Vector3 position=new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
                 Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
-                selectedObject.transform.position = new Vector3(worldPosition.x, 3483.447f, worldPosition.z);
+                selectedObject.transform.position = new Vector3(worldPosition.x, Ynumber, worldPosition.z);
 
                 selectedObject = null;
                 Cursor.visible = true;
@@ -45,7 +46,7 @@ public class select : MonoBehaviour
         {
             Vector3 position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Cam.WorldToScreenPoint(selectedObject.transform.position).z);
             Vector3 worldPosition = Cam.ScreenToWorldPoint(position);
-            selectedObject.transform.position = new Vector3(worldPosition.x, 3492.447f, worldPosition.z);
+            selectedObject.transform.position = new Vector3(worldPosition.x, Ynumber+10f, worldPosition.z);
 
             if (Input.GetMouseButtonDown(1))
             {
