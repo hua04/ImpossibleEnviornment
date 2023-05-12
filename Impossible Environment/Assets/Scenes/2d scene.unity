@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11880899, g: 0.18341433, b: 0.32990912, a: 1}
+  m_IndirectSpecularColor: {r: 0.11884108, g: 0.18339348, b: 0.32976314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3101,7 +3101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &415088278
 Camera:
   m_ObjectHideFlags: 0
@@ -5557,7 +5557,7 @@ MonoBehaviour:
     unscaledTime: 0
     walkingSpeeds:
       forwardSpeed: 3
-      sidewaysSpeed: 2.5
+      sidewaysSpeed: 2
       backwardsSpeed: 2
     canRun: 1
     runToggleMode: 0
@@ -5667,12 +5667,12 @@ MonoBehaviour:
     bobClass:
       enableBob: 1
       unscaledTime: 0
-      bobFrequency: 1.5
+      bobFrequency: 2
       bobHeight: 0.3
       swayAngle: 0.2
       sideMovement: 0.05
       heightMultiplier: 0.3
-      strideMultiplier: 0.3
+      strideMultiplier: 1
       landMove: 0.4
       landTilt: 20
       enableStrafeTilting: 0
@@ -5691,7 +5691,7 @@ MonoBehaviour:
       minPitch: 0.9
       maxPitch: 1.1
       changeVolume: 1
-      volume: 0.3
+      volume: 0.05
       audioClips:
       - {fileID: 8300000, guid: 44e59b73420f0e64fb30e755c49b3823, type: 3}
       - {fileID: 8300000, guid: 62e6bf700540ea9478b91b33afa85e7e, type: 3}
@@ -5704,7 +5704,7 @@ MonoBehaviour:
       minPitch: 1.4
       maxPitch: 1.6
       changeVolume: 1
-      volume: 1
+      volume: 0.3
       audioClips:
       - {fileID: 8300000, guid: 44e59b73420f0e64fb30e755c49b3823, type: 3}
       - {fileID: 8300000, guid: 62e6bf700540ea9478b91b33afa85e7e, type: 3}
@@ -5730,7 +5730,7 @@ MonoBehaviour:
       minPitch: 0.9
       maxPitch: 1.1
       changeVolume: 1
-      volume: 1
+      volume: 0.3
       audioClips:
       - {fileID: 8300000, guid: 11cc82c4daa9f304dbbfab62c9207608, type: 3}
     landing:
@@ -5772,8 +5772,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790674511}
-  m_LocalRotation: {x: -0, y: 0.3599914, z: -0, w: 0.9329556}
-  m_LocalPosition: {x: 4.1, y: 5.5, z: 13.9}
+  m_LocalRotation: {x: -0, y: 0.06050061, z: -0, w: 0.9981682}
+  m_LocalPosition: {x: 4.1, y: 2.79, z: 21.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5782,7 +5782,7 @@ Transform:
   - {fileID: 83934812}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 42.199, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 6.937, z: 0}
 --- !u!1001 &805623073
 PrefabInstance:
   m_ObjectHideFlags: 0
