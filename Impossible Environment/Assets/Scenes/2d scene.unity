@@ -173,6 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!114 &20496548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1164,6 +1165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &107247810
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1297,6 +1299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &112969113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1885,6 +1888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &224280566
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2644,6 +2648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 415088278}
   Ynumber: 3486.7
+  rotatenumber: 45
 --- !u!114 &322354398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3648,10 +3653,14 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a9ac82ea2942e704db4cd2c678ec5fb4, type: 2}
+      objectReference: {fileID: 2100000, guid: b57a6600f3f2c274e8d95e2388775d19, type: 2}
     - target: {fileID: 919132149155446097, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
       propertyPath: m_Name
       value: piece2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
@@ -3665,20 +3674,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
   m_PrefabInstance: {fileID: 500178914}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &500178918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500178916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6a960ed8e338844183a954d2c0ad93a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cam: {fileID: 56192906}
-  Ynumber: 3485.8
 --- !u!64 &500178919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3693,25 +3688,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 56ba6b73d02543240b03c23c37cfbf35, type: 3}
---- !u!114 &500178922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500178916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3dfa55db74abd84d81413dce2a44ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  appearobject: {fileID: 490827327}
-  appearobject2: {fileID: 490827327}
-  Xmaxrange: -657.7
-  Xminrange: -622.2
-  Ynumber: 3485.8
-  Zmaxrange: 659
-  Zminrange: 593.3
 --- !u!1 &505027312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,6 +4226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 415088278}
   Ynumber: 3486.7
+  rotatenumber: 22.5
 --- !u!114 &590244315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4263,7 +4240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appearobject: {fileID: 506703778}
-  appearobject2: {fileID: 506703778}
+  appearobject2: {fileID: 351439224}
   Xmaxrange: -619.4
   Xminrange: -694.2
   Ynumber: 3486.7
@@ -4426,7 +4403,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 08072f4cfdb41ca41a0a9619ca523098, type: 2}
+      objectReference: {fileID: 2100000, guid: b57a6600f3f2c274e8d95e2388775d19, type: 2}
     - target: {fileID: 919132149155446097, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
       propertyPath: m_Name
       value: piece2.2
@@ -4434,6 +4411,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
@@ -4447,20 +4428,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
   m_PrefabInstance: {fileID: 629559056}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &629559060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629559058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6a960ed8e338844183a954d2c0ad93a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cam: {fileID: 56192906}
-  Ynumber: 3485.8
 --- !u!64 &629559061
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4475,25 +4442,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 7330d72b8216e264682bec3b88308ae8, type: 3}
---- !u!114 &629559064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629559058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3dfa55db74abd84d81413dce2a44ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  appearobject: {fileID: 2093583756}
-  appearobject2: {fileID: 2093583756}
-  Xmaxrange: -622.2
-  Xminrange: -657.7
-  Ynumber: 3485.8
-  Zmaxrange: 659
-  Zminrange: 593.3
 --- !u!1001 &634815670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5029,6 +4977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &723540365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5424,6 +5373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &754567543
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5827,6 +5777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 56192906}
   Ynumber: 3485.8
+  rotatenumber: 90
 --- !u!64 &789397604
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5854,7 +5805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appearobject: {fileID: 1515514719}
-  appearobject2: {fileID: 1801922529}
+  appearobject2: {fileID: 1515514719}
   Xmaxrange: -657.7
   Xminrange: -622.2
   Ynumber: 3485.8
@@ -6359,7 +6310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790674511}
   m_LocalRotation: {x: -0, y: 0.06050061, z: -0, w: 0.9981682}
-  m_LocalPosition: {x: 74.3, y: 2.79, z: 123}
+  m_LocalPosition: {x: 19.1, y: 2.79, z: 14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8065,6 +8016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!114 &1059179310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8670,6 +8622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1135123850
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8786,7 +8739,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 795869be724a9324d92a274c67dcc6d1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b57a6600f3f2c274e8d95e2388775d19, type: 2}
+      objectReference: {fileID: 2100000, guid: a9ac82ea2942e704db4cd2c678ec5fb4, type: 2}
     - target: {fileID: 919132149155446097, guid: 795869be724a9324d92a274c67dcc6d1, type: 3}
       propertyPath: m_Name
       value: piece2.1
@@ -8912,6 +8865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1218579599
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9682,6 +9636,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a04a031a96fa7df4e924f85f549bc87a, type: 3}
+--- !u!1 &1330931631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 795869be724a9324d92a274c67dcc6d1, type: 3}
+  m_PrefabInstance: {fileID: 1139593384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1330931634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330931631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3dfa55db74abd84d81413dce2a44ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appearobject: {fileID: 1801922529}
+  appearobject2: {fileID: 2093583756}
+  Xmaxrange: -622.2
+  Xminrange: -657.7
+  Ynumber: 3485.8
+  Zmaxrange: 659
+  Zminrange: 593.3
+--- !u!114 &1330931635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330931631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a960ed8e338844183a954d2c0ad93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cam: {fileID: 56192906}
+  Ynumber: 3485.8
+  rotatenumber: 90
+--- !u!64 &1330931636
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330931631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: 795869be724a9324d92a274c67dcc6d1, type: 3}
 --- !u!1 &1376541292
 GameObject:
   m_ObjectHideFlags: 0
@@ -9814,6 +9821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 415088278}
   Ynumber: 3486.7
+  rotatenumber: 22.5
 --- !u!114 &1377524255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14986,6 +14994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1437708286
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15473,7 +15482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569739812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -203.39998, y: -0.80000305, z: 115.2}
+  m_LocalPosition: {x: -203.39998, y: -3.2, z: 115.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15892,6 +15901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1637174500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16351,6 +16361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 56192906}
   Ynumber: 3485.8
+  rotatenumber: 90
 --- !u!64 &1701867428
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16377,7 +16388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dfa55db74abd84d81413dce2a44ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appearobject: {fileID: 1700682984}
+  appearobject: {fileID: 490827327}
   appearobject2: {fileID: 1700682984}
   Xmaxrange: -657.7
   Xminrange: -622.2
@@ -16505,6 +16516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1716953588
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17043,7 +17055,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 85ba1b43579da724ba7c59fbbc58c4f1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f4462ecc7bb5ab4a9ac7e3ab0b496bc, type: 2}
+      objectReference: {fileID: 2100000, guid: b57a6600f3f2c274e8d95e2388775d19, type: 2}
     - target: {fileID: 919132149155446097, guid: 85ba1b43579da724ba7c59fbbc58c4f1, type: 3}
       propertyPath: m_Name
       value: piece1.3
@@ -17055,58 +17067,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 85ba1b43579da724ba7c59fbbc58c4f1, type: 3}
   m_PrefabInstance: {fileID: 1822703482}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1822703484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 85ba1b43579da724ba7c59fbbc58c4f1, type: 3}
-  m_PrefabInstance: {fileID: 1822703482}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1822703485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822703484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6a960ed8e338844183a954d2c0ad93a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cam: {fileID: 415088278}
-  Ynumber: 3486.7
---- !u!114 &1822703486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822703484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3dfa55db74abd84d81413dce2a44ddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  appearobject: {fileID: 351439224}
-  appearobject2: {fileID: 351439224}
-  Xmaxrange: -619.4
-  Xminrange: -694.2
-  Ynumber: 3486.7
-  Zmaxrange: 184.1
-  Zminrange: 153
---- !u!64 &1822703487
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1822703484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: 85ba1b43579da724ba7c59fbbc58c4f1, type: 3}
 --- !u!1001 &1830359527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17302,6 +17262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1843257441
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17802,6 +17763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &1929112005
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17935,6 +17897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &1953457508
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18208,6 +18171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &1981183489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18320,6 +18284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 1256932268}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &1991266446
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18738,6 +18703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &2028253698
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19140,6 +19106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!64 &2050585009
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19496,6 +19463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cam: {fileID: 2013885558}
   Ynumber: 0
+  rotatenumber: 0
 --- !u!23 &2085234787
 MeshRenderer:
   m_ObjectHideFlags: 0

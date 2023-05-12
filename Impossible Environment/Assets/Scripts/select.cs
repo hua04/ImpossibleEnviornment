@@ -7,6 +7,7 @@ public class select : MonoBehaviour
     public Camera Cam;
     private GameObject selectedObject;
     public float Ynumber;
+    public float rotatenumber;
     private Vector3 screenPoint;
     private Vector3 offset;
 
@@ -52,7 +53,7 @@ public class select : MonoBehaviour
             {
                 selectedObject.transform.rotation = Quaternion.Euler(new Vector3
                     (selectedObject.transform.rotation.eulerAngles.x,
-                    selectedObject.transform.rotation.eulerAngles.y + 22.5f,
+                    selectedObject.transform.rotation.eulerAngles.y+rotatenumber,
                     selectedObject.transform.rotation.eulerAngles.z
                     ));
             }
