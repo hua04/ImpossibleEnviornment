@@ -580,6 +580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &54411850 stripped
@@ -724,6 +728,10 @@ PrefabInstance:
     - target: {fileID: 8551900890150332339, guid: fa2d9ba110f7271438265f38e3dd9dad, type: 3}
       propertyPath: m_Name
       value: RockSet05D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8551900890150332339, guid: fa2d9ba110f7271438265f38e3dd9dad, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 9071837482516069641, guid: fa2d9ba110f7271438265f38e3dd9dad, type: 3}
       propertyPath: m_RootOrder
@@ -1192,6 +1200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand_painted_tree (green) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1582,6 +1594,22 @@ PrefabInstance:
     - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_Name
       value: Rock_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014029068524, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
@@ -1975,6 +2003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &208650681 stripped
@@ -2244,6 +2276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2424,7 +2460,7 @@ GameObject:
   - component: {fileID: 253675076}
   m_Layer: 0
   m_Name: RockShortFlat_F
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2884,6 +2920,10 @@ PrefabInstance:
     - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
       propertyPath: m_Name
       value: Coconut_FBX Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
@@ -3957,7 +3997,7 @@ GameObject:
   - component: {fileID: 446687097}
   m_Layer: 0
   m_Name: RockShortFlat_D (1)
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4439,6 +4479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flying_Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 581698b96e6438c42832937fad6f7afc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 581698b96e6438c42832937fad6f7afc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4641,6 +4685,10 @@ PrefabInstance:
     - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
       propertyPath: m_Name
       value: Coconut_FBX Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
@@ -4948,7 +4996,7 @@ GameObject:
   - component: {fileID: 608492092}
   m_Layer: 0
   m_Name: RockShortFlat_B
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5198,6 +5246,10 @@ PrefabInstance:
     - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_Name
       value: RockSet05G
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 3290235926381983661, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_RootOrder
@@ -5903,6 +5955,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014029068524, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6325,13 +6393,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014029068524, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
@@ -7104,6 +7188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &805623074 stripped
@@ -7165,6 +7253,10 @@ PrefabInstance:
     - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
       propertyPath: m_Name
       value: Coconut_FBX Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
@@ -7273,6 +7365,10 @@ PrefabInstance:
     - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_Name
       value: hand_painted_tree (green) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 1941545694364793559, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7659,7 +7755,7 @@ GameObject:
   - component: {fileID: 878213506}
   m_Layer: 0
   m_Name: RockShortFlat_D
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8776,6 +8872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &1010148123 stripped
@@ -9355,6 +9455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand_painted_tree (Blue) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4169315433675866005, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9725,6 +9829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockSet05G (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 3290235926381983661, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9803,7 +9911,7 @@ GameObject:
   - component: {fileID: 1129276317}
   m_Layer: 0
   m_Name: RockShortFlat_A (1)
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15406,6 +15514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand_painted_tree (Blue) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4169315433675866005, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15765,7 +15877,7 @@ GameObject:
   - component: {fileID: 1275984598}
   m_Layer: 0
   m_Name: RockShortFlat_E
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16073,6 +16185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &1303291414 stripped
@@ -16134,6 +16250,10 @@ PrefabInstance:
     - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
       propertyPath: m_Name
       value: Coconut_FBX Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
@@ -21534,6 +21654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockSet05G
       objectReference: {fileID: 0}
+    - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 3290235926381983661, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -21620,6 +21744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand_painted_tree (green) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -21704,6 +21832,22 @@ PrefabInstance:
     - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_Name
       value: Rock_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014029068524, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
@@ -22532,6 +22676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &1623532485 stripped
@@ -23254,6 +23402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockSet05D
       objectReference: {fileID: 0}
+    - target: {fileID: 8551900890150332339, guid: fa2d9ba110f7271438265f38e3dd9dad, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 9071837482516069641, guid: fa2d9ba110f7271438265f38e3dd9dad, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -23327,6 +23479,10 @@ PrefabInstance:
     - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Name
       value: hand_painted_tree (Blue)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4169315433675866005, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -23499,6 +23655,10 @@ PrefabInstance:
     - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Name
       value: hand_painted_tree (Blue) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4169315433675866005, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24024,6 +24184,10 @@ PrefabInstance:
     - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_Name
       value: Rock_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
@@ -24770,6 +24934,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: not moving
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012523636006, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013155481704, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014029068524, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010653347892, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -24989,6 +25165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coconut_FBX Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
 --- !u!4 &1964388537 stripped
@@ -25050,6 +25230,10 @@ PrefabInstance:
     - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
       propertyPath: m_Name
       value: Coconut_FBX Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377883279482629631, guid: fef008399ee061441adea5211107dcb7, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef008399ee061441adea5211107dcb7, type: 3}
@@ -25513,6 +25697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hand_painted_tree (Blue) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3589402564649788260, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
+      propertyPath: m_TagString
+      value: not moving
+      objectReference: {fileID: 0}
     - target: {fileID: 4169315433675866005, guid: 2df87b6594b47e64cbec15f49122be51, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -25622,6 +25810,10 @@ PrefabInstance:
     - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_Name
       value: RockSet05G (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801965230442786071, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 3290235926381983661, guid: 85401a3e43b09a5408869ec597917bfc, type: 3}
       propertyPath: m_RootOrder
@@ -25995,7 +26187,7 @@ GameObject:
   - component: {fileID: 2082343749}
   m_Layer: 0
   m_Name: RockShortFlat_A
-  m_TagString: Untagged
+  m_TagString: not moving
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26177,6 +26369,10 @@ PrefabInstance:
     - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_Name
       value: hand_painted_tree (green)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939513854358012833, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
+      propertyPath: m_TagString
+      value: not moving
       objectReference: {fileID: 0}
     - target: {fileID: 5009897490527822869, guid: 78d9ffa473ff6f14291fd5a98de517fc, type: 3}
       propertyPath: m_RootOrder
