@@ -29,7 +29,7 @@ public class select : MonoBehaviour
                         return;
                     }
                     selectedObject=hit.collider.gameObject;
-                    Cursor.visible = false;
+                    Cursor.visible = true;
                 }
             }
             else
